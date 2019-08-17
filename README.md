@@ -3,7 +3,7 @@ Python code for Mie scattering
 ## Information
 Python code for Mie scattering calculation based on [1,2], where the dielectric function is taken from [3].
 ## Image of Application
-a
+![MIE-Scattering-GUI](https://user-images.githubusercontent.com/53835191/63211372-73df1b80-c0f6-11e9-91b8-4789ce4a34d6.png)
 ## Sources
 [1] C. F. Bohren and D. R. Huffman, Absorption and scattering of light by small
     particles, Wiley, 1983
