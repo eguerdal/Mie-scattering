@@ -76,18 +76,18 @@ class MplCanvas(FC):
             N=round(u+4*u**(1/3)+2)
             L=np.arange(1,(N+1))#[1,...,N]
         
-        #SPHERICAL BESSER FUNKTION 1.KIND
+        #SPHERICAL BESSEL FUNCTION 1.KIND
             jL=(sc.pi/(2*u))**0.5*(np.array(jv(np.insert(L,0,0)+0.5,u)))
             jLm=(sc.pi/(2*u*m))**0.5*(np.array(jv(np.insert(L,0,0)+0.5,u*m)))
         
-        #SPHERICAL BESSER FUNKTION 1.KIND (DERIVATION)
+        #SPHERICAL BESSEL FUNCTION 1.KIND (DERIVATION)
             jL_der=jL[:np.int64(N)]-L/u*jL[np.int64(L)]
             jLm_der=jLm[:np.int64(N)]-L/(u*m)*jLm[np.int64(L)]
         
-        #SPHERICAL BESSER FUNKTION 3.KIND
+        #SPHERICAL BESSEL FUNCTION 3.KIND
             hL=(sc.pi/(2*u))**0.5*(np.array(hankel1(np.insert(L,0,0)+0.5,u)))
         
-        #SPHÄRISCHE BESSELFUNKTION 3.KIND (DERIVATION)
+        #SPHERICAL BESSEL FUNCTION 3.KIND (DERIVATION)
             hL_der=hL[:np.int64(N)]-L/u*hL[np.int64(L)]
          
         #COEFFICIENTS
