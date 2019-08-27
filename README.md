@@ -1,7 +1,7 @@
 # Mie-scattering
 Python code for Mie scattering
 ## Information
-Python code for Mie scattering calculation based on [1,2], where the dielectric function is taken from [3].
+Python code for calculation of Mie scattering based on [1,2]. The necessary dielectric functions are taken from [3].
 ## Image of Application
 ![MIE-Scattering-GUI](https://user-images.githubusercontent.com/53835191/63211372-73df1b80-c0f6-11e9-91b8-4789ce4a34d6.png)
 ## Sources
